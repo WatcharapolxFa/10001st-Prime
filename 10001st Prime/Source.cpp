@@ -1,6 +1,6 @@
 #include<stdio.h>
-
 #include<math.h>
+
 int main()
 {
 	int num[4]; // num[0] = answer  num[1] =number  num[2] =count  num[3] = flag
