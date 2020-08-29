@@ -9,8 +9,18 @@ int main()
 	while (num[2]<1001)
 	{
 		num[3] = 0; // current number is a prime number
-
-
+		if (num[1] == 1)
+		{
+			num[3] = 1;
+		}
+		if (num[1] % 2 == 0)
+		{
+			num[3] = 1;
+		}
+		if (num[1] == 2)
+		{
+			num[3] = 0;
+		}
 	}
 
 
