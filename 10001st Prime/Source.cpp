@@ -24,10 +24,7 @@ int main()
 		double boundary = (int)floor(sqrt(num[1]));
 		for (int f = 0; f <= boundary; f+=2)
 		{
-			if (num[1] % f == 0)
-			{
-				num[3] = 1;
-			}
+			if (num[1] % f == 0)num[3] = 1;
 			if (num[3] == 0) 
 			{
 				num[0] = num[1];
