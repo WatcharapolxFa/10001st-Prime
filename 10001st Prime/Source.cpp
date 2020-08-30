@@ -29,19 +29,10 @@ int main()
 			{
 				num[0] = num[1];
 				num[2]++;
-				printf_s("Count = %d , Prime =%d \n", num[2], num[0]);
-			
+				printf_s("Count = %d , Prime =%d \n", num[2], num[0]);			
 			}
 			num[1]++;
 		}
 	}
-
-
-
-
-
-
-
-
 	return 0;
 }
